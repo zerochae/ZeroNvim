@@ -29,6 +29,7 @@ opt.splitright = true
 opt.termguicolors = true
 opt.timeoutlen = 400
 opt.undofile = true
+opt.background = 'dark'
 
 opt.updatetime = 250
 

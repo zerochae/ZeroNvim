@@ -6,6 +6,10 @@ end
 
 local plugins = {
   "neovim/nvim-lspconfig",
+  {
+    "nvim-treesitter/nvim-treesitter",
+    build = ":TSUpdate",
+  },
 }
 
 lazy.setup(plugins)
