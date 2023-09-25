@@ -1,6 +1,6 @@
 local M = {}
 
-M.load_hl = function(tb)
+M.hl_command = function(tb)
   local result = ""
 
   for hlgroupName, hlgroup_vals in pairs(tb) do
